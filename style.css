@@ -74,7 +74,8 @@ h4 {
 .outer-container {
   display: flex;
   flex-direction: row;
-  margin: 6rem 2rem 3rem 10rem;
+  text-align: center;
+  margin: 2rem 0rem 6rem 15rem;
 }
 
 .third2 {
