@@ -37,6 +37,7 @@ h3 {
   font-family: Lato;
   font-size: large;
   font-weight: 700;
+  line-height: 2rem;
 }
 
 h4 {
@@ -73,7 +74,7 @@ h4 {
 .outer-container {
   display: flex;
   flex-direction: row;
-  margin: 12rem;
+  margin: 6rem 2rem 3rem 10rem;
 }
 
 .third2 {
@@ -81,15 +82,31 @@ h4 {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 16rem 0rem 0rem 0.5rem;
   text-align: left;
+  font-weight: 700;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .third3 {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 2rem;
   text-align: left;
+  padding: 16rem 3rem 0rem 0.5rem;
+  text-align: left;
+  font-weight: 700;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .fourth-group {
@@ -132,7 +149,7 @@ footer {
 .small {
   text-align: center;
   color: grey;
-  font-size: small;
+  font-size: x-small;
 }
 
 main > * {
