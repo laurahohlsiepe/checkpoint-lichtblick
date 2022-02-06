@@ -68,6 +68,25 @@ nav {
     align-items: flex-start;
     flex-wrap: wrap;
   }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+  }
+
+  _header > nav {
+    text-align: space-between;
+    background-color: darkcyan;
+  }
+
+  _.nav-link {
+    display: block;
+
+    background-color: burlywood;
+  }
 }
 
 .first-group {
