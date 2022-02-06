@@ -42,6 +42,8 @@ h3 {
 
 h4 {
   font-family: Roboto;
+  font-weight: 300;
+  line-height: 2rem;
 }
 
 nav {
@@ -49,7 +51,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   font-family: Roboto;
-  font-weight: 900;
+  font-weight: 300;
   color: black;
 }
 
@@ -59,8 +61,17 @@ nav {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
 .first-group {
-  padding: 16rem;
+  padding: 15rem;
   background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   height: 100%;
   background-position: center;
@@ -77,20 +88,23 @@ nav {
 .second-group {
   background-color: #e597b1;
   text-align: center;
-  padding: 6rem 4rem 8rem 4rem;
+  padding: 8rem 4rem 6rem 4rem;
+  margin-top: 3.5rem;
   font-size: medium;
+  font-size: inherit;
 }
 
 .third-group {
   background-color: white;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .outer-container {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin: 2rem 0rem 6rem 15rem;
+  margin: 2rem 0rem 3rem 16rem;
 }
 
 .third2 {
@@ -128,8 +142,8 @@ nav {
 .fourth-group {
   background-color: #758d75;
   text-align: center;
-  padding: 6rem 4rem 8rem 4rem;
-  font-size: medium;
+  padding: 6rem 4rem 18rem 4rem;
+  font-size: inherit;
 }
 
 .underlined {
@@ -137,28 +151,41 @@ nav {
   font-weight: bold;
 }
 
-.button {
+.button1 {
   display: inline;
-  font-family: Roboto;
-  font-weight: 700;
-  color: black;
+  _font-family: Roboto;
+  font-weight: 500;
+  background-color: #e597b1;
   border: black;
   border-style: solid;
   border-width: thin;
   border-radius: 3px;
-  padding: 0.3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.button2 {
+  display: inline;
+  font-family: Roboto;
+  _font-weight: 500;
+  background-color: #758d75;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 footer {
   background-color: black;
   color: white;
+  margin-top: 3rem;
 }
 
 .footer-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 5rem 8rem 5rem 8rem;
+  padding: 10rem 8rem 5rem 9rem;
   text-decoration: underline;
   color: white;
 }
@@ -175,8 +202,9 @@ footer {
   font-size: x-small;
 }
 
-main > * {
-  background-color: white;
-  margin: 0rem;
-  margin-bottom: 3rem;
+_main > * {
+  background-color: blue;
+  _margin: 0rem;
+  margin-top: 0.5rem;
+  _padding-bottom: 1rem;
 }
