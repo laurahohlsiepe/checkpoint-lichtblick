@@ -1,2 +1,165 @@
 * {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.logo {
+  max-width: 13rem;
+  min-width: 13rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family: Lato;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: Lato;
+  font-size: large;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+h4 {
+  font-family: Roboto;
+}
+
+.header-p {
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+.first-group {
+  padding: 16rem;
+  background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.first-text {
+  display: inline-flex;
+  margin: 0.5rem 0rem -5rem 0.25rem;
+}
+
+.second-group {
+  background-color: #e597b1;
+  text-align: center;
+  padding: 6rem 4rem 8rem 4rem;
+  font-size: medium;
+}
+
+.third-group {
+  background-color: white;
+  text-align: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 2rem 0rem 6rem 15rem;
+}
+
+.third2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 16rem 0rem 0rem 0.5rem;
+  text-align: left;
+  font-weight: 700;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.third3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: left;
+  padding: 16rem 0.5rem 0rem 0.5rem;
+  text-align: left;
+  font-weight: 700;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  margin: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.fourth-group {
+  background-color: #758d75;
+  text-align: center;
+  padding: 6rem 4rem 8rem 4rem;
+  font-size: medium;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.button {
+  display: inline;
+  font-family: Roboto;
+  font-weight: 700;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  padding: 0.3rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5rem 8rem 5rem 8rem;
+  text-decoration: underline;
+}
+
+.small {
+  text-align: center;
+  color: grey;
+  font-size: x-small;
+}
+
+main > * {
+  background-color: white;
+  margin: 0rem;
+  margin-bottom: 3rem;
 }
